@@ -1,0 +1,26 @@
+{
+    "name": "devspinotek/lms-question-bank",
+    "description": "Reusable Question Bank module for Laravel LMS applications.",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": "^8.2",
+        "illuminate/support": "^11.0|^12.0",
+        "spatie/laravel-medialibrary": "^11.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "SpinotekLms\\QuestionBank\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "SpinotekLms\\QuestionBank\\QuestionBankServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
+
